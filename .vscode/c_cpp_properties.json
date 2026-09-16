@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/config",
+                "D:/Espressif/frameworks/esp-idf-v5.5.1/components/**"
+            ],
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "compilerPath": "D:/Espressif/tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}
